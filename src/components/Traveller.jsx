@@ -7,17 +7,18 @@ import Testimony from './travellerPages/Testimony'
 import Assurance from './travellerPages/Assurance'
 import Subscribe from './homePages/Subscribe'
 import Footer from './homePages/Footer'
+import AnimatedSection from './AnimatedSection'
 
 function Traveller() {
   return (
     <div>
         <Header />
-        <About />
-        <Register />
-        <Benefit />
-        <Testimony />
-        <Assurance />
-        <Subscribe />
+        <AnimatedSection><About /></AnimatedSection>
+        <AnimatedSection><Register /></AnimatedSection>
+        <AnimatedSection><Benefit /></AnimatedSection>
+        <AnimatedSection><Testimony /></AnimatedSection>
+        <AnimatedSection><Assurance /></AnimatedSection>
+        <AnimatedSection><Subscribe /></AnimatedSection>
         <Footer />
     </div>
   )

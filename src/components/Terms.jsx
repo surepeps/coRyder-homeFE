@@ -4,14 +4,15 @@ import TermsHeader from './termsPages/TermsHeader'
 import Content from './termsPages/Content'
 import Subscribe from './homePages/Subscribe'
 import Footer from './homePages/Footer'
+import AnimatedSection from './AnimatedSection'
 
 function Terms() {
   return (
     <div>
         <Header />
-        <TermsHeader />
-        <Content />
-        <Subscribe />
+        <AnimatedSection><TermsHeader /></AnimatedSection>
+        <AnimatedSection><Content /></AnimatedSection>
+        <AnimatedSection><Subscribe /></AnimatedSection>
         <Footer />
     </div>
   )

@@ -38,7 +38,7 @@ function Header() {
         </div>
     </header>
 
-    <header className='py-5 px-10 lg:hidden block'>
+    <header className='py-3 px-10 lg:hidden block'>
         <div className='flex items-center justify-between'>
         <div className="logo">
             <img className='h-10' src={logo} alt="co traveller logo" />
@@ -49,6 +49,7 @@ function Header() {
         </div>
         </div>
 
+        {/* MENU FOR SMALL SCREEN STARTS */}
         <div className="menu pt-10 hidden">
         <div className="menu">
          <ul className='grid gap-5 font-semibold text-sm'>
@@ -70,6 +71,7 @@ function Header() {
          </ul>
          </div>
         </div>
+        {/* MENU FOR SMALL SCREEN STOPS */}
     </header>
     </div>
   )

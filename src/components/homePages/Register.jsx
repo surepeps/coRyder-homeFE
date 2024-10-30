@@ -8,7 +8,7 @@ function Register() {
   return (
     <div className='py-10 lg:px-20 px-10'>
         <h2 className='font-bold text-3xl text-center'>How It Works</h2>
-        <div className="cards grid gap-5 lg:flex items-start pt-10">
+        <div className="cards grid gap-5 lg:flex items-start justify-center pt-10">
             <div className="card px-3 lg:w-[25vw] h-[83vh] grid gap-2 text-center rounded-xl bg-[#EDF6F4] space-y-1 pt-4">
                 <div className="top">
                 <h3 className='text-2xl font-semibold text-[#36A690]'>Sign Up & Verify Your Account</h3>

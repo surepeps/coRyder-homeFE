@@ -7,7 +7,9 @@ import img1 from '../../../public/images/img1.png'
 
 function About() {
   return (
-    <div className='w-full bg-[#349D8917] lg:flex items-center justify-between lg:pl-20 px-10 pt-5 lg:mt-16 relative overflow-hidden'>
+     
+    <div className='w-full bg-[#349D8917] lg:flex items-center justify-between lg:pl-20 px-10 pt-5 lg:mt-8 relative overflow-hidden -mt-[6.6vh]'> 
+    {/* the -mt-[6.6vh] in the style is to remove an unexpected space */}
         <div className="right space-y-4 lg:w-2/5">
             <p className='text-[#36A690] font-semibold'>Travel with comfort</p>
             <h3 className='font-bold text-4xl leading-10'>Find Rides. Share journeys. Save Money With <span className='text-[#36A690] underline underline-offset-8'>CoRyde.</span></h3>
@@ -28,5 +30,7 @@ function About() {
     </div>
   )
 }
+
+
 
 export default About

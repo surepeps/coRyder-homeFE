@@ -7,17 +7,18 @@ import Testimony from './driverPages/Testimony'
 import Subscribe from './homePages/Subscribe'
 import Footer from './homePages/Footer'
 import Assurance from './driverPages/Assurance'
+import AnimatedSection from './AnimatedSection'
 
 function Driver() {
   return (
     <div>
         <Header />
-        <About />
-        <Regsiter />
-        <Benefit />
-        <Testimony />
-        <Assurance />
-        <Subscribe />
+        <AnimatedSection><About /></AnimatedSection>
+        <AnimatedSection><Regsiter /></AnimatedSection>
+        <AnimatedSection><Benefit /></AnimatedSection>
+        <AnimatedSection><Testimony /></AnimatedSection>
+        <AnimatedSection><Assurance /></AnimatedSection>
+        <AnimatedSection> <Subscribe /></AnimatedSection>
         <Footer />
     </div>
   )

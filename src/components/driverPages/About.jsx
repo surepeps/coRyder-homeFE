@@ -4,7 +4,7 @@ import img13 from '../../../public/images/img13.png'
 
 function About() {
   return (
-    <div className='bg-[#EDF6F4] flex items-center lg:justify-end lg:flex-row justify-center flex-col gap-20 lg:mt-16 pt-5 lg:pt-0'>
+    <div className='bg-[#EDF6F4] flex items-center lg:justify-end lg:flex-row justify-center flex-col gap-20 lg:mt-8 pt-5 lg:pt-0 -mt-[6.6vh]'>
         <div className=" lg:w-2/5 px-5 lg:px-0">
             <h3 className='text-4xl font-bold leading-[55px]'>Set your own rates, choose your trips, and drive whenever you want.</h3>
             <div className="button pt-5">
