@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='flex flex-col items-center justify-center gap-5 py-10'>
-        <div className="top flex items-center gap-5">
+        <div className="top flex flex-col lg;flex-row items-center gap-5">
             <div className="menu">
-            <ul className='flex items-center gap-5 text-sm font-semibold'>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/driver">Driver</Link></li>
-                <li><Link to="/traveller">Traveller</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="#">About us</Link></li>
-            </ul>
+              <ul className='flex items-center gap-5 text-sm font-semibold'>
+                  <li><Link to="/">Home</Link></li>
+                  <li><Link to="/driver">Driver</Link></li>
+                  <li><Link to="/traveller">Traveller</Link></li>
+                  <li><Link to="/contact">Contact</Link></li>
+                  <li><Link to="#">About us</Link></li>
+              </ul>
             </div>
             <p className='h-4 w-[1.3px] bg-gray-700 hidden lg:block'></p>
             <div className="socials flex gap-3">
